@@ -1,0 +1,32 @@
+class Lab4task7
+{
+	public static void main (string arg [])
+	{
+
+	int a=0;
+	int ptr , c;
+	int arr[] = {10,9,8,7,6,5};
+	int b = arr.length;
+for (c=1;c<b;c++)
+{
+	
+	for (ptr=0;ptr<b-c;ptr=ptr+1)
+	{
+	if (arr[ptr]>arr[ptr+1])
+	{
+	a = arr[ptr];
+	b[ptr] = b[ptr+1];
+	b[ptr+1] = a;
+	}
+
+
+	}
+}
+for (c=0;c<b;c++)
+{
+	system.out.print(b[c] + " ");
+}
+
+
+	}
+}
